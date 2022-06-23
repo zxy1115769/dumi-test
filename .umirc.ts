@@ -5,6 +5,8 @@ export default defineConfig({
   hash: true,
   locales: [['en-US', 'English'], ['zh-CN', '中文']],//设置中英文显示
   mode: 'site',
+  base: '/',
+  publicPath: '/',
   exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
   nodeModulesTransform: {
     type: 'none',
